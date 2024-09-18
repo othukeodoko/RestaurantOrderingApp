@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    
+} 
+/* Navigation Styling */
+nav {
+    background-image: url('/images/burger-image.png');
+    background-size: cover;
+    color: white;
+    height: 30vh;
+    /* margin-bottom: 10px; */
+}
+.nav-title{
+    margin-left: 10px;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-subtitle{
+    margin-left: 10px;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    margin-left: 30px;
+    width: 400px;
+}
+/* Menu Styling */
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Vertically align items */
+    justify-content: space-between; /* Horizontally align items */
+    margin: 20px;
+    border-bottom: 1px solid #D2D2D2;
+    font-family: "Smythe", system-ui;
+}
+/* .item-list{
+    /* margin-top: 20px; */
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    /* padding: 0 50px; */
+    /* margin-bottom: 20px; 
+} */
+.order-items{
+    /* display: flex;
+    justify-content: space-between; */
+    list-style: none;
+    text-decoration: none;
+    font-family: "Smythe", system-ui;
+}
+.checklist-header{
+    text-align: center;
+    font-family: "Smythe", system-ui;
+}
+.total-info{
+    border-top: 2px solid black;
+    margin-top: 10px;
+}
+.emoji-image{
+   font-size: 60px; 
+}
+.add-btn{
+   border-radius: 50%;
+    width: 40px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    padding: 0; /* Remove any padding */
+    margin-top: 10px;
+}
+.remove-btn{
+    list-style: none;
+    text-decoration: none;
+    color: #BBBBBB;
+    margin: 0 10px;
+}
+.btn-complete{
+    width: 100%;
+    background-color: #16DB99;
+    color: white;
+    border: none;
+}
+.payment-modal {
+    display: none;
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+#pay-btn{
+    width: 100%;
+    box-sizing: border-box; 
+    background-color: #16DB99;
+    color: white;
+    border: none;
+}
+.payment-success {
+  display: none;
+  background-color: lightgreen;
+  color: green;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+input[type="text"]{
+    padding: 10px;
+}
